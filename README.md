@@ -1,5 +1,5 @@
 # imageTo3D
-A filter that breaks up an image into cells (defined by user) which fly out along the Z-Axis based on brightness as the user moves the mouse along the X-Axis
+A filter that breaks up an image into cells (defined by user) which fly out along the Z-Axis based on pixel hue as the user moves the mouse along the X-Axis
 
 
 [Original Image](image.jpg)  /  [Filtered Image](screenshot.PNG)
