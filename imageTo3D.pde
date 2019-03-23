@@ -34,7 +34,7 @@ void draw()
       int loc = x + y * width;
       color c = img.pixels[loc];
       
-      float z = map(brightness(img.pixels[loc]), 0,255, 0, mouseX);
+      float z = map(hue(img.pixels[loc]), 0,255, 0, mouseX);
       
       pushMatrix();
       translate(x, y, z);
